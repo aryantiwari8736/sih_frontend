@@ -5,6 +5,7 @@ import ImageSlider from '../../Imageslider';
 import Navbar from '../../components/navbar/Navbar';
 import OurRoutes from '../../OurRoutes';
 import Safety from '../../Safety';
+import Footer from '../../components/footer/Footer1.js';
 
 export default function Home() {
     return (
@@ -15,7 +16,8 @@ export default function Home() {
             <Emission />
             <OurRoutes />
             <Safety />
-            <Appdetails />
+            {/* <Appdetails /> */}
+            <Footer />
         </>
     )
 }
