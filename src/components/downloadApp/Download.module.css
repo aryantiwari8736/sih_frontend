@@ -1,0 +1,46 @@
+.downloadApp {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f0faf9;
+}
+
+.heading1 {
+    color: #1e1e26;
+    font-size: 26px;
+    font-weight: 630;
+    margin-bottom: 32px;
+}
+
+.heading2 {
+    color: #4b4b51;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 34px;
+}
+
+.right_cont {
+    min-width: 300px;
+    flex: 1;
+    padding: 48px 15px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 32px;
+    width: 65%;
+}
+
+.inner_div {
+    display: flex;
+}
+
+.icon_img {
+    margin-right: 16px;
+    width: 36px;
+}
+
+.img1 {
+    width: 141px;
+}

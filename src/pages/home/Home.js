@@ -6,6 +6,7 @@ import Navbar from '../../components/navbar/Navbar';
 import OurRoutes from '../../OurRoutes';
 import Safety from '../../Safety';
 import Footer from '../../components/footer/Footer1.js';
+import DownloadApp from '../../components/downloadApp/DownloadApp';
 
 export default function Home() {
     return (
@@ -17,6 +18,7 @@ export default function Home() {
             <OurRoutes />
             <Safety />
             {/* <Appdetails /> */}
+            <DownloadApp />
             <Footer />
         </>
     )
