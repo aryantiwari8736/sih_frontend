@@ -7,6 +7,7 @@ import OurRoutes from '../../OurRoutes';
 import Safety from '../../Safety';
 import Footer from '../../components/footer/Footer1.js';
 import DownloadApp from '../../components/downloadApp/DownloadApp';
+import BusInfo from '../../components/busBluePrint/BusInfo';
 
 export default function Home() {
     return (
@@ -18,6 +19,7 @@ export default function Home() {
             <OurRoutes />
             <Safety />
             {/* <Appdetails /> */}
+            <BusInfo />
             <DownloadApp />
             <Footer />
         </>

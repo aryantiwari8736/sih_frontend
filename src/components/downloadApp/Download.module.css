@@ -15,10 +15,11 @@
     color: #4b4b51;
     font-size: 18px;
     font-weight: 700;
-    margin-bottom: 34px;
+    margin-bottom: 24px;
 }
 
 .right_cont {
+    margin-left: 50px;
     min-width: 300px;
     flex: 1;
     padding: 48px 15px;
