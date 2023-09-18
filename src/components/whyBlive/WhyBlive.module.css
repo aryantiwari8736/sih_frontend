@@ -1,0 +1,39 @@
+.container{
+    border: 1px solid #d2d2d4;
+    border-radius: 16px;
+    margin-bottom: 50px;
+    min-height: 278px;
+    padding: 24px 31px;
+    text-align: center;
+    width: 300px;
+    align-items: center;
+}
+.image{
+    width:fit-content;
+    justify-content: center;
+}
+.title{
+    color: #1e1e26;
+    font-family: Ubuntu,sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.text{
+    color: #78787d;
+    font-family: Open Sans,sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+}
+.heading{
+    display: flex;
+    color: #1e1e26;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    text-align: left;
+}
+.section{
+    padding: 24px 64px;
+}

@@ -1,5 +1,3 @@
-import Appdetails from '../../Appdetails';
-import Emission from '../../Emission';
 import Form from '../../Form';
 import ImageSlider from '../../Imageslider';
 import Navbar from '../../components/navbar/Navbar';
@@ -8,6 +6,7 @@ import Safety from '../../Safety';
 import Footer from '../../components/footer/Footer1.js';
 import DownloadApp from '../../components/downloadApp/DownloadApp';
 import BusInfo from '../../components/busBluePrint/BusInfo';
+import WhyBlive from '../../components/whyBlive/WhyBlive';
 
 export default function Home() {
     return (
@@ -15,10 +14,9 @@ export default function Home() {
             <Navbar />
             <ImageSlider />
             <Form />
-            <Emission />
-            <OurRoutes />
-            <Safety />
-            {/* <Appdetails /> */}
+            {/* <OurRoutes /> */}
+            {/* <Safety /> */}
+            <WhyBlive />
             <BusInfo />
             <DownloadApp />
             <Footer />
