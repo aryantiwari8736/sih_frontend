@@ -26,6 +26,7 @@
 .footer_terms{
     color: white;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-color: #22bbb0;
     padding: 10px 80px;
@@ -36,6 +37,12 @@
 }
 .term_li{
     margin: 0 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer_details{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 490px) {
