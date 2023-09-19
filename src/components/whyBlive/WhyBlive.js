@@ -32,7 +32,7 @@ export default function WhyBlive() {
             <div className='flex flex-wrap space-x-2 justify-evenly'>
                 {data.map((e) => <Card img={e.img} title={e.title} text={e.text} />)}
             </div>
-            <hr />
+     
         </section>
     );
 }
